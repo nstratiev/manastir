@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+
+footer {
+  font-weight: bold;
+  margin-top: 20px;
+  border-top: 1px solid black;
+  padding: 20px;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  padding: 4px 0 4px 0;
+}
+
+a.browser:link,
+a.browser:visited {
+  color: green;
+}
+
+span.browser {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+blockquote {
+  font-weight: bold;
+  color: darkred;
+}
