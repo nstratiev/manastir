@@ -24,6 +24,12 @@ a:visited {
   padding: 4px 0 4px 0;
 }
 
+a.rus:link,
+a.rus:visited {
+  display: inline;
+  padding: 4px 0 4px 0;
+}
+
 a.browser:link,
 a.browser:visited {
   color: green;
