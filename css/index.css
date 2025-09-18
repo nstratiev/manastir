@@ -132,3 +132,20 @@ div.footer {
   margin-bottom: 40px;
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  main {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  ul,
+  ol {
+    padding-left: 0;
+  }
+
+  footer {
+    min-height: 80px;
+  }
+
+}
