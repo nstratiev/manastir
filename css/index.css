@@ -38,6 +38,10 @@ footer {
   background-color: rgb(240, 240, 240);
 }
 
+nav {
+  font-weight: bold;
+}
+
 main {
   margin-bottom: 20px;
 }
