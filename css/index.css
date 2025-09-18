@@ -1,21 +1,76 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+main,
+footer {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 header {
   border-bottom: 1px solid black;
-  margin-bottom: 40px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 footer {
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: auto;
   border-top: 1px solid black;
-  padding: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+header,
+footer {
+  background-color: rgb(240, 240, 240);
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 12px;
+  text-align: center;
+}
+
+article > h2 {
+  margin-top: 20px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+article > ul {
+  margin-top: 20px;
+}
+
+hr {
+  margin: 10px auto;
+  width: 90%;
+}
+
+hr.last {
+  margin-bottom: 40px;
 }
 
 a:link,
@@ -43,4 +98,31 @@ span.browser {
 blockquote {
   font-weight: bold;
   color: darkred;
+}
+
+ul.dashed {
+  list-style-type: "- ";
+}
+
+ol.movies > li {
+  margin-top: 25px;
+}
+
+ol.movies > li > h4 {
+  margin-top: 20px;
+}
+
+ol.movies > li:last-child {
+  margin-bottom: 40px;
+}
+
+div.subtitles-description {
+  text-align: center;
+  margin-top: 12px;
+}
+
+div.footer {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
 }
