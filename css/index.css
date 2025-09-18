@@ -142,6 +142,13 @@ div.footer {
   ul,
   ol {
     padding-left: 0;
+    text-align: left;
+  }
+
+  ul.movies > li,
+  ol.movies > li {
+    padding-left: 0;
+    text-align: left;
   }
 
   footer {
