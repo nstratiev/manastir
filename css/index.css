@@ -63,6 +63,7 @@ article > h2 {
 ul,
 ol {
   padding-left: 20px;
+  overflow: hidden;
 }
 
 article > ul {
