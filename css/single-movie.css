@@ -1,0 +1,8 @@
+ul.movies {
+  list-style-type: none;
+  text-align: center;
+}
+
+h4.movie-title {
+  margin-top: 20px;
+}
