@@ -127,6 +127,10 @@ div.subtitles-description {
   margin-top: 12px;
 }
 
+div.descript {
+  font-weight: initial;
+}
+
 div.footer {
   margin-top: 20px;
   margin-bottom: 40px;
