@@ -137,6 +137,25 @@ div.footer {
   text-align: center;
 }
 
+.prav-calendar {
+  border: 1px solid green;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 4px 16px;
+  margin-bottom: 10px;
+}
+
+.prav-calendar > a:link,
+.prav-calendar > a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+.prav-calendar > a:hover,
+.prav-calendar > a:active {
+  text-decoration: underline;
+}
+
 @media (max-width: 500px) {
   main {
     padding-left: 4px;
